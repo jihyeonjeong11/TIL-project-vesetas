@@ -1,0 +1,62 @@
+
+
+
+한 일
+
+
+1. vs code 유용한 기능들
+
+a. conflict merge
+
+b. 
+html 상에서 이러한 명령어를 통해서 엘리먼트를 손쉽게 만들어 낼 수 있다.
+ul.list>item*4
+이렇게 작성할 경우
+
+<ul class = 'list'>
+<item />
+<item />
+<item />
+<item />
+</ul>
+
+의 형태로 나타남
+
+c. 
+testb 참고
+
+.js 파일에서 펑션 부분 위에 /** 이후 엔터키 입력하면
+해당 펑션의 매개 변수를 설명하는 커멘트 형식이 자동 입력된다.
+/**
+ * 
+ * @param {*} name user
+ * @param {*} age 15
+ */
+
+ function a (name, age) {
+
+    return 'hello, ' + name + ' ' + age;
+}
+
+이런식으로 쉽게 설명할 수 있음.
+
+d.
+
+console wrapper 라는 익스텐션을 활용해 console.log를 간편하게 활용할 수 있다.
+
+const a = 3; 이란 변수가 있다면
+
+변수 이름을 카피한 뒤 ctrl+shift+q 명령어를 사용하면
+
+ console.log("a ", a); 가 표시된다.
+
+e.
+
+문서 상에서 소스 코드를 import 하는 경우, import 되는 부분의 코드에 ctrl 키를 누른 채 클릭하면 그 파일로 자동 이동된다.
+
+import something from '../modules/test.js'; 에서 test.js를 클릭할 수 있다.
+
+
+f.
+
+ctrl+d를 누르면 선택된 부분에서 중복되는 부분이 같이 블록 처리되어 한번에 수정할 수 있게 된다.
